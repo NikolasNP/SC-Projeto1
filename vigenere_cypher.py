@@ -111,7 +111,7 @@ def print_block(label, text):
 
 # Testes e demonstração
 if __name__ == "__main__":
-    print("==== Cifra de Vigenère ====\n")
+    print("Parte I: cifrador / decifrador:")
 
     mensagem = "ATTACKATDAWN"
     senha = "LEMON"
@@ -124,7 +124,7 @@ if __name__ == "__main__":
     print(f"Texto decifrado: {vigenere_decifrar(cifrado, senha)}")
 
     print("\n" + "="*80)
-    print("=== Ataque de análise de frequência ===")
+    print("Parte II: ataque de recuperação de senha por análise de frequência:")
     print("="*80)
 
     # Exemplo em português
