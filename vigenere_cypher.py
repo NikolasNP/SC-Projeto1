@@ -33,6 +33,8 @@ def vigenere_decifrar(ciphertext, key):
             decifrado += char
     return decifrado
 
+# Parte II – Análise de Frequência
+
 # Frequência de letras no português
 portuguese_freq = {
     'A': 14.63, 'B': 1.04, 'C': 3.88, 'D': 4.99, 'E': 12.57, 'F': 1.02,
@@ -51,7 +53,6 @@ english_freq = {
     'Y': 1.97, 'Z': 0.07
 }
 
-# Parte II – Análise de Frequência
 def analise_de_freq(text):
     text = ''.join(filter(str.isalpha, text.upper()))
     total = len(text)
