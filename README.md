@@ -1,7 +1,5 @@
-Segurança Computacional - 2025/1
-
-Professora Priscila Solis
-
+Segurança Computacional - 2025/1<br>
+Professora Priscila Solis<br>
 João Victor Prata (202028857), Nikolas Negrao (202024722) 
 
 # Relatório Trabalho de Implementação 1 - Cifra de Vigenère
